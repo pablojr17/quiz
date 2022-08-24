@@ -38,11 +38,13 @@ export default function Questao(props: QuestaoProps) {
 
   return (
     <div className={styles.questao}>
-      <Enunciado texto={questao.enunciado} />
-      <Temporizador
-        duracao={props.tempoParaResposta ?? 10}
-        tempoEsgotado={props.tempoEsgotado}
-      />
+      <div className={styles.cabecalho}>
+        <Enunciado texto={questao.enunciado} />
+        <Temporizador
+          duracao={props.tempoParaResposta ?? 10}
+          tempoEsgotado={props.tempoEsgotado}
+        />
+      </div>
       {renderizarResposta()}
     </div>
   );

@@ -11,7 +11,7 @@ export default function Temporizador(props: TemporizadorProps) {
     <div className={styles.temporizador}>
       <CountdownCircleTimer
         duration={props.duracao}
-        size={100}
+        size={60}
         isPlaying
         onComplete={props.tempoEsgotado}
         colors={["#2BAA6D", "#F7B801", "#A30000"]}

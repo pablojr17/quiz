@@ -1,5 +1,4 @@
 import styles from "../styles/Enunciado.module.css";
-import QuestaoModel from "../model/questao";
 
 interface EnunciadoProps {
   texto: string;

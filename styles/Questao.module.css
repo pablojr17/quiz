@@ -3,3 +3,11 @@
   flex-direction: column;
   align-items: center;
 }
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  width: 100%;
+}
