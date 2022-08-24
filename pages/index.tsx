@@ -31,6 +31,7 @@ export default function Home() {
     >
       <Questao
         valor={questao}
+        tempoParaResposta={5}
         respostaFornecida={respostaFornecida}
         tempoEsgotado={tempoEsgotado}
       />
